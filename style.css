@@ -1,0 +1,99 @@
+#marqueeStyle{
+    background-color: dodgerblue;
+    color: white;
+}
+#video{
+    text-align: center;
+    width: 100%;
+}
+.list-group-item-warning{
+    border: 2px;
+}
+#img1{
+    width: 27%;
+    height: 20%;
+    margin-left: 37%;
+    margin-right: 10px;
+}
+#one{
+    text-align: center;
+}
+#two{
+    text-align: center;
+}
+#main{
+    height: 100px;
+    width: 100px;
+}
+#P{
+    text-align: left;
+}
+h5{
+    text-align: left;
+}
+/*part 1*/
+.SWM_head{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.SWM_head i{
+float: right;
+}
+
+.movie_text span{
+color: #ff7700;
+}
+/*part 2*/
+.SWM_head{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.SWM_head i{
+float: right;
+}
+
+.movie_text span{
+color: #ff7700;
+}
+/*part 3*/
+.SWM_head{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.SWM_head i{
+float: right;
+}
+
+.movie_text span{
+color: #ff7700;
+}
+.Web_Links{
+    text-align: center;
+    /* For me the text align wasn't working*/
+    cursor: pointer;
+}
+#paddingN{
+    margin-left: 10%;
+}
+.book{
+    padding: 10px;
+}
+#header{
+    text-align: left;
+}
+

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--
+        navbar
+    --> 
+        <nav class="navbar-inverse" style="position: sticky; top: 0; z-index: 99999;">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Clayton Elementry School</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#About">About</a></li>
+                <li><a href="#Achevements">Achevements</a></li>
+                <li><a href="#Activities">Activities</a></li>
+                <li><a href="#Social">Social</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--
+        Marquee
+    -->
+    <div class="announcement">
+        <marquee id="marqueeStyle" onmouseover="this.stop();" onmouseout="this.start();">
+            ** Feel free to ask questons at <u>maltio: claytonelementry.gmail.com</u>.**
+        </marquee>
+    </div>
+    <!--
+        Video
+    -->
+    <iframe id="video" width="717" height="538" src="https://www.youtube.com/embed/qKEtnrsYoRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="container">
+        <!--
+            Sections
+        -->
+        <section id="About">
+            <h1 class="page-header">About</h1>
+            <p>Welcome to Clayton Elementry School! We provide an advanced course for young learners anywhere from kindergarten to 5<sup>th</sup> grade, while providing a unique learning experince.
+            We have been rated 5 stars by many famlies, and we have also been nominated a school board award for 'Exelent Teaching.' Founded by Nan Clayton in 2007, we strive for child to have the best experience there is. </p>
+        </section>
+    <br>
+    <section id="Achevements">
+        <h1 class="page-header">Achevements</h1>
+        <!--
+            Achevement sections
+        -->
+        <div id="one" class="Achevement_mainDiv">
+            <img id="img1" class="img-responsive" src="https://www.onlinegambling.com/news/wp-content/uploads/2019/10/NBA-Championship-Trophy.jpg">
+            <h4 class="text-capitalize"><kbd>Basketball Junior league Championship Trophy</kbd></h4>
+            <hr>
+            <h5 class="text-success text-left text-capitalize">Won in 2008 and 2010</h5>
+            <p id="P" class="text-muted">On May 7 and June 12, Clayton Elementry school won the <b>Junior league Championship</b> Trophy, a hard to get trophy that can only be won when the selected school beats
+            every school in the district (57) twice. </p>
+        </div>
+        <br>
+        <br>
+        <div id="one" class="Achevement_mainDiv">
+            <img id="img1" class="img-responsive" src="https://www.bing.com/th?id=OIP.xQEu-48cbaVwQ8WaSBCuVAHaHa&w=110&h=110&c=7&rs=1&qlt=80&pcl=f9f9f9&o=6&cdv=1&dpr=1.25&pid=18.2">
+            <h4 class="text-capitalize"><kbd>5<sup>th</sup> grade singing compitition award</kbd></h4>
+            <hr>
+            <h5 class="text-success">Won in 2014</h5>
+            <p id="P" class="text-muted">On january 12, Clayton Elementry 5<sup>th</sup> grader Mark Mcinziy won first place in the <b class="text-capitalize">National schoolwide singing compition for 5<sup>th</sup> graders.</b>
+            Another student, seth hall (5<sup>th</sup> grader) won 2nd place, after our very own Mark Mcinziy.
+            </p>
+        </div>
+    </section>
+    <br>
+    <section id="Activities">
+        <div class="page-header" id="movies">
+            <h1 class="text-capitalize">activities</h1>
+        </div>
+
+        <div class="bg-primary SWM_head" data-toggle="collapse" data-target="#SWM">
+            <span class="glyphicon glyphicon-search"></span> School Wax Museum
+            <i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="SWM" class="collapse">
+            <!--
+                After you click the blue bar, scroll down
+            -->
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="https://enablingdevices.com/wp-content/uploads/2019/04/TwoMenLookingatcomputer.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">wax museum project
+                    <a href=""><span class="glyphicon glyphicon-info-sign"></span></a>
+                </h5>
+                <p>As the end of the school year is approaching, you and your child can chose if you want to do an end-of-the-year bonus project. you can <a href="https://docs.google.com/document/d/1CTyNsSsEZm7UJHUdl4riJ6iZB2AkMbeonKnKQhKIyYI/edit?usp=sharing">click here</a>
+                    to see the instructions for the project, and <a href="https://aisdskylink-my.sharepoint.com/:x:/g/personal/ryan_khanna2w_stu_austinisd_org/EWvj_Ns4zhJDooyfdzFrgQoBtTR7pXVSylPe8Civ0_T8gw?e=OMjWSZ">click here</a> for a Q and A document.
+                    The password is <b>Clayton559!</b>.
+                </p>
+            </div>
+        </div>
+        <!--
+            Part 2
+        -->
+        <div class="bg-primary SWM_head" data-toggle="collapse" data-target="#NHM">
+            <span class="glyphicon glyphicon-search"></span> National Museum of nuclear Science and History  
+            <i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="NHM" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="https://th.bing.com/th/id/OIP.YnOI7EdjNxL0ybFMq2F4AwHaGq?pid=ImgDet&rs=1" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">National Museum of Nuclear Science and History 
+                    <a href=""><span class="glyphicon glyphicon-info-sign"></span></a>
+                </h5>
+                <p>With the covid going on, we have decided to let the students go to one feild trip: the <a href="https://www.nuclearmuseum.org/">National Museum of nuclear Science and History</a>. Here, they will learn About
+                Our ancestor's past. This will help your child to learn more the history of nuclear energy, and what it is.</p>
+            </div>
+        </div>
+        <!--
+            Part 3
+        -->
+        <div class="bg-primary SWM_head" data-toggle="collapse" data-target="#RC">
+            <span class="glyphicon glyphicon-search"></span> Rock Concert ( 5<sup>th</sup> and 4<sup>th</sup> graders only)
+            <i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="RC" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <img src="https://si.wsj.net/public/resources/images/B3-BY031_TRUCKE_SOC_20181002114854.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">Rock concert
+                    <!--
+                        I gotta admit, I think I went too far with the rock concert......
+                    -->
+                    <a href=""><span class="glyphicon glyphicon-info-sign"></span></a>
+                </h5>
+                <p>As the end of the school year is approaching, we have decided to have a mini rock concert with all the teachers. There will be nothing innapropriate, but still only 5<sup>th</sup> and 4<sup>th</sup>
+                graders will be allowed to participate.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Social">
+        <h1 class="page-header">Social</h1>
+        <!--
+            Modal 1
+        -->
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#AISD_portal" id="paddingN">
+            <img id="one" src="https://www.aisd.net/wp-content/files/2018/10/rapididentity-logo.jpg" class="img-responsive">
+            <hr>
+            <p class="text-primary">AISD portal</p>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="AISD_portal">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">About the AISD portal</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <img id="A.P" src="https://www.aisd.net/wp-content/files/2018/10/rapididentity-logo.jpg" class="img-responsive img_modal">
+                        <p class="p_modal">The AISD portal is a school-based website where kids can access tools for learning, such as <b class="text-capitalize">adobe spark</b>, <b class="text-capitalize">IXL learning</b>
+                        , and <b class="text-capitalize">microsoft office</b>.</p>
+                        <hr>
+                        <p class="p_modal"><b>For Parents:</b> You can see your childrens grade and cirriculum thought the adult AISD portal.</p>
+                        <br>
+                            <a class="Web_Links" href="https://portal.austinisd.org/idp/AuthnEngine#/authn"><b>Go to Website</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+            Modal 2
+        -->
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#Microsoft_office">
+            <img id="one" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Microsoft_Office_logo_(2019%E2%80%93present).svg/1200px-Microsoft_Office_logo_(2019%E2%80%93present).svg.png" class="img-responsive">
+            <hr>
+            <p class="text-primary text-capitalize">Microsoft office</p>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="Microsoft_office">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title text-capitalize">About microsoft office</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <img id="A.P" src="https://www.aisd.net/wp-content/files/2018/10/rapididentity-logo.jpg" class="img-responsive img_modal">
+                        <p class="p_modal"></p>
+                        <hr>
+                        <p class="p_modal"><i class="text-capitalize">Microsoft office</i>is another tool students can use, and it is also inside the AISD portal. Here, they  can make document their work, save notes for later, and much more!</p>
+                        <br>
+                            <a class="Web_Links" href="https://www.office.com/?auth=2"><b>Go to Website</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--
+            Modal 3
+        -->
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target="#Adobe_spark">
+            <img id="Main" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Adobe_Spark_icon_(2020).svg/246px-Adobe_Spark_icon_(2020).svg.png" class="img-responsive">
+            <hr>
+            <p class="text-primary text-capitalize">Adobe spark</p>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="Adobe_spark">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title text-capitalize">About adobe spark</h4>
+                    </div>
+
+                    <div class="modal-body">
+                        <img id="A.P" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Adobe_Spark_icon_(2020).svg/246px-Adobe_Spark_icon_(2020).svg.png" class="img-responsive img_modal">
+                        <p class="p_modal"><i class="text-capitalize">Adobe spark</i> is a free desiging studio that enables students to make beautiful presentations, postcards, and much more.</p>
+                        <hr>
+                        <p class="p_modal"></p>
+                        <br>
+                            <a class="Web_Links" href="https://spark.adobe.com/sp/"><b>Go to Website</b></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section id="contact">
+        <h1 class="page-header" id="header">Contact us</h1>
+        <!--
+            Ask teacher about Header
+        -->
+        <span>
+            <h3>Clayton Elementry school</h3>
+            <br>
+            <br>
+            <p class="text-muted">7525 La Crosse Avenue</p>
+            <br>
+            <p class="text-muted">Austin TX, 78739</p>
+        </span>
+        <span>
+        </span>
+    </section>
+    </div>
+</body>
+</html>
